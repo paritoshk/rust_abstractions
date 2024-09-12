@@ -1,0 +1,5 @@
+Execution time comparison:
+Python: 2.110 seconds
+Go: 3.176 seconds
+Rust: 2.429 seconds
+C++: 5.240 seconds
