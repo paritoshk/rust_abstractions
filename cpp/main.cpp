@@ -29,12 +29,12 @@ Task timed_task(const std::function<Task()>& task, const std::string& name, cons
 }
 
 Task task1() {
-    std::this_thread::sleep_for(2s);
+    std::this_thread::sleep_for(0.02s);
     co_return;
 }
 
 Task task2() {
-    std::this_thread::sleep_for(2s);
+    std::this_thread::sleep_for(0.02s);
     co_return;
 }
 
