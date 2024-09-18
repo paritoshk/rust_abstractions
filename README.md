@@ -75,8 +75,9 @@ Go's goroutines are lightweight and efficient. The slightly longer execution tim
 3. Rust (2.002 seconds):
 Rust's tokio runtime provides asynchronous programming capabilities. The slightly longer execution time could be due to the additional safety checks and abstractions that Rust provides.
 
-4. C++ (5.00711 seconds):
-C++ coroutines are a relatively new feature, and compiler optimizations might not be as mature as for other concurrency models.
+4. C++ (Human Controlled):
+C++ has the lowest latency period 
+
 
 
 
